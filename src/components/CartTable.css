@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .table-container table tbody tr {
+      display: block;
+      margin-bottom: 20px;
+    }
+  
+    .table-container table tbody tr td {
+      display: block;
+      padding: 10px;
+      /* border: 1px solid #dee2e6;
+      border-radius: 5px;
+      margin-bottom: 10px; */
+    }
+  
+    .table-container table thead {
+      display: none;
+    }
+  
+    .table-container table tbody tr td:before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .table-container table tbody tr td .filter-icons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
